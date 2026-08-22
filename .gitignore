@@ -1,0 +1,41 @@
+# Environment and secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+docentvenv/
+venv/
+env/
+.Python
+
+# Testing / coverage / caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Project data
+data/
+*.chroma/
+.chroma/
+chroma/
+*.sqlite
+*.duckdb
+*.log
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editor cruft
+.DS_Store
+.idea/
+.vscode/
+*.swp
